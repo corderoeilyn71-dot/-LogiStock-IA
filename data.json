@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Auriculares Cloud",
+    "sku": "AUD-001",
+    "category": "Electrónica",
+    "stock": 8,
+    "minStock": 12,
+    "supplier": "AudioTech S.A."
+  },
+  {
+    "name": "Teclado mecánico",
+    "sku": "TEC-024",
+    "category": "Electrónica",
+    "stock": 34,
+    "minStock": 10,
+    "supplier": "Periféricos del Norte"
+  },
+  {
+    "name": "Mouse ergonómico",
+    "sku": "MOU-018",
+    "category": "Accesorios",
+    "stock": 6,
+    "minStock": 15,
+    "supplier": "TecnoImport"
+  },
+  {
+    "name": "Soporte de aluminio",
+    "sku": "SOP-006",
+    "category": "Accesorios",
+    "stock": 52,
+    "minStock": 12,
+    "supplier": "AluParts"
+  },
+  {
+    "name": "Lámpara de escritorio",
+    "sku": "LAM-011",
+    "category": "Hogar",
+    "stock": 19,
+    "minStock": 8,
+    "supplier": "Luz & Diseño"
+  },
+  {
+    "name": "Hub USB-C",
+    "sku": "HUB-009",
+    "category": "Electrónica",
+    "stock": 0,
+    "minStock": 10,
+    "supplier": "ConectaPlus"
+  }
+]
