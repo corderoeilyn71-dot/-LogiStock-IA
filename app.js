@@ -274,7 +274,16 @@ elements.form.addEventListener("submit", (event) => {
     firstInvalidField?.focus();
     return;
   }
+// Ejemplo: si estás restando/vendiendo una cantidad sobre un producto existente
+const existingProduct = products.find(
+  (p) => p.sku.toUpperCase() === product.sku.toUpperCase() || p.name.toLowerCase() === product.name.toLowerCase()
+);
 
+if (existingProduct && requestedSaleQty > existingProduct.stock) {
+  elements.formFeedback.style.color = "#cf6e7c";
+  elements.formFeedback.textContent = `Stock insuficiente: solo quedan ${existingProduct.stock} unidades disponibles.`;
+  return;
+}
   products = [product, ...products];
   renderDashboard();
   elements.form.reset();
